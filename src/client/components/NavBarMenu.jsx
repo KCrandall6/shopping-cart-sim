@@ -8,10 +8,10 @@ const NavBarMenu = () => {
   return (
     <Nav variant="tabs" defaultActiveKey="/">
       <Nav.Item>
-        <Nav.Link href="/home">Active</Nav.Link>
+        <Nav.Link href="/">Home</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="link-1">Option 2</Nav.Link>
+        <Nav.Link href="/mycart" eventKey="link-1">My Cart</Nav.Link>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link eventKey="disabled" disabled>
