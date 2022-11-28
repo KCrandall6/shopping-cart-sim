@@ -1,0 +1,28 @@
+{
+  "fruits": [
+    {
+      "name": "apple",
+      "price": "1.34"
+    }, 
+    {
+      "name": "pear",
+      "price": "1.12"
+    }, 
+    {
+      "name": "orange",
+      "price": "1.67"
+    }, 
+    {
+      "name": "banana",
+      "price": "2.03"
+    }, 
+    {
+      "name": "kiwi",
+      "price": "2.17"
+    },
+    {
+      "name": "grapefruit",
+      "price": "0.98"
+    }
+  ]
+}

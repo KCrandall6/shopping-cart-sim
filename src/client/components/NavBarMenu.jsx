@@ -1,24 +1,21 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 const NavBarMenu = () => {
   return (
-    <Nav variant="tabs" defaultActiveKey="/">
-      <Nav.Item>
-        <Nav.Link href="/">Home</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link href="/mycart" eventKey="link-1">My Cart</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="disabled" disabled>
-          Disabled
-        </Nav.Link>
-      </Nav.Item>
-    </Nav>
+    <>
+    <Navbar bg="light" variant="light">
+        <Container>
+          <Navbar.Brand href="/">Shopping Cart Simulator</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link className="position-absolute top-50 end-0 translate-middle border text-light rounded bg-info bg-gradient" href="/mycart">My Cart</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+    </>
   );
 }
 
