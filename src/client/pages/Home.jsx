@@ -1,9 +1,8 @@
-import React, {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import useFetchFruits from '../../hooks/useFetchFruits';
 
-const Home = () => {
+const Home = ({addToCart}) => {
 
   const fruitList = useFetchFruits();
 
@@ -21,11 +20,10 @@ const Home = () => {
           <Card.Text>
             ${fruit.price}
           </Card.Text>
-          <Button variant="primary">add to cart</Button>
+          <Button onClick={() => addToCart(fruit)} variant="primary">add to cart</Button>
         </Card.Body>
       </Card>
       ))
-
       }
     </div>
     </div>
