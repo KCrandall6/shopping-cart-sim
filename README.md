@@ -4,15 +4,15 @@ The purpose of this app is to simluate adding items to a online-store shopping c
 
 The basic UI of the app is as shown in the figure below. A number of cards are organized from dummy data in a local json file. As the "add to cart" button is clicked, the items are added to the cart and the icon above the "My Cart" tab increments. The cart data is saved on localStorage.
 
-<!-- <p align="center">
-  <img src="https://github.com/oslabs-beta/SocketLeague/blob/5bd79f9556de084e33323787a46da8e9c2442288/assets/images/Socket_League_Logo_.gif" alt="Socket League Logo"/>
-</p> -->
+<p align="center">
+  <img src="https://github.com/KCrandall6/shopping-cart-sim/blob/main/figures/Screen%20Shot%202022-11-29%20at%2012.41.59%20AM.png" alt="Main App Screen Shot"/>
+</p>
 
 The "My Cart" tab includes the items added to the cart. Here you have the option to "delete from cart" which will delete the item and decrement the total cost as well as the count badge.
 
-<!-- <p align="center">
-  <img src="https://github.com/oslabs-beta/SocketLeague/blob/5bd79f9556de084e33323787a46da8e9c2442288/assets/images/Socket_League_Logo_.gif" alt="Socket League Logo"/>
-</p> -->
+<p align="center">
+  <img src="https://github.com/KCrandall6/shopping-cart-sim/blob/main/figures/Screen%20Shot%202022-11-29%20at%2012.42.36%20AM.png" alt="My Cart Screen Shot"/>
+</p>
 
 Feel free to fork and add additional features!!
 
